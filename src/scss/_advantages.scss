@@ -1,0 +1,41 @@
+.advantages {
+    background: (#F6F6F6);
+    padding: 71px 0 78px;
+
+    &__title {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .row {
+        .col {
+            margin-top: 65px;
+            padding: 0 43px;
+
+            .wrapper {
+                text-align: center;
+
+                &__subtitle {
+                    margin: 20px 0 15px;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+
+                &__descr {
+                    margin: 0 auto;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-weight: 300;
+
+                    span {
+                        color: red;
+                        text-decoration: underline;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

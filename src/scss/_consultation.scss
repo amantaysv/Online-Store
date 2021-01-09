@@ -1,0 +1,20 @@
+.consultation {
+    background: url(../images/consBg.png) center top/cover no-repeat;
+    padding: 100px 0 92px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 80px;
+        text-transform: uppercase;
+    }
+
+    &__descr {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 35px;
+    }
+}

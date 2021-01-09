@@ -1,0 +1,16 @@
+@mixin btn($wd, $hg, $fz) {
+    display: block;
+    width: $wd;
+    height: $hg;
+    background:$red;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: $fz;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+$red: #C70101;

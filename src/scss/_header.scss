@@ -1,0 +1,40 @@
+    .header {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 21px;
+        color: #fff;
+
+        &__block {
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__official {
+            font-size: 16px;
+            line-height: 25px;
+
+            span {
+                font-size: 18px;
+                display: block;
+                font-weight: 700;
+            }
+        }
+
+        &__phone {
+            font-size: 18px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        &__btn {
+            @include btn(151px, 31px, 12px);
+            margin-left: auto;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    }
