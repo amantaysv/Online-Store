@@ -19,6 +19,16 @@
     font-size: 14px;
     padding-left: 20px;
     margin-bottom: 14px;
+
+    &:invalid {
+        &:not(:placeholder-shown) {
+            border: 1px solid red;
+        }
+    }
+}
+
+.validation {
+    color: #ffffff;
 }
 
 .btn {

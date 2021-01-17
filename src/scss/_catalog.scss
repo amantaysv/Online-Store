@@ -107,7 +107,6 @@
             transform: translateX(0);
             margin-left: 20px;
 
-
             &_active {
                 margin-left: 0;
                 transform: translateX(-100%);
@@ -143,8 +142,6 @@
             left: 50%;
             transform: translate(calc(-50% - 20px));
             bottom: 0;
-            display: block;
-            text-align: center;
             color: $red;
             text-transform: uppercase;
         }
