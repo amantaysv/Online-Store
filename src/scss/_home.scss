@@ -1,5 +1,5 @@
 .home {
-    background: url(../images/mainBg.png) center top/cover no-repeat;
+    background: url(../images/mainBg.webp) center top/cover no-repeat;
     padding: 155px 0 80px;
 
     &__wrapper {
@@ -23,7 +23,6 @@
         text-transform: uppercase;
         line-height: 35px;
     }
-
 
     .row {
         display: flex;

@@ -134,7 +134,7 @@ body {
 }
 
 .home {
-  background: url(../images/mainBg.png) center top/cover no-repeat;
+  background: url(../images/mainBg.webp) center top/cover no-repeat;
   padding: 155px 0 80px;
 }
 
@@ -252,7 +252,7 @@ body {
 }
 
 .consultation {
-  background: url(../images/consBg.png) center top/cover no-repeat;
+  background: url(../images/consBg.webp) center top/cover no-repeat;
   padding: 100px 0 92px;
 }
 
