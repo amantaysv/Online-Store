@@ -1,4 +1,4 @@
-@import url(../libs/bootstrap/bootstrap-grid.min.css);
+@import url(../libs/mdb-ui-kit/css/mdb.min.css);
 @import url(../libs/fontawesome/css/all.min.css);
 @import url(../fonts/MuseoSans/stylesheet.css);
 @import url(../libs/OwlCarousel2-2.3.4/css/owl.carousel.min.css);
@@ -232,6 +232,16 @@ body {
   text-align: center;
 }
 
+.advantages .row .col .wrapper .heartrate {
+  -webkit-animation: heartbeat 1.5s infinite ease-in-out;
+          animation: heartbeat 1.5s infinite ease-in-out;
+}
+
+.advantages .row .col .wrapper .cup {
+  -webkit-animation: shake 1.5s infinite ease-in-out;
+          animation: shake 1.5s infinite ease-in-out;
+}
+
 .advantages .row .col .wrapper__subtitle {
   margin: 20px 0 15px;
   font-size: 18px;
@@ -249,6 +259,46 @@ body {
   color: red;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes shake {
+  from {
+  }
+}
+
+@keyframes shake {
+  from {
+  }
 }
 
 .consultation {

@@ -17,6 +17,14 @@
             .wrapper {
                 text-align: center;
 
+                .heartrate {
+                    animation: heartbeat 1.5s infinite ease-in-out;
+                }
+
+                .cup {
+                    animation: shake 1.5s infinite ease-in-out;
+                }
+
                 &__subtitle {
                     margin: 20px 0 15px;
                     font-size: 18px;
@@ -37,5 +45,25 @@
                 }
             }
         }
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes shake {
+    from {
+        
     }
 }

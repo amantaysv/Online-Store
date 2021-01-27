@@ -71,7 +71,7 @@
                 <div class="row">
                     <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                         <div class="wrapper">
-                            <img class="wrapper__icon" src="./src/images/svg/cup.svg" alt="cup">
+                            <img class="wrapper__icon cup" src="./src/images/svg/cup.svg" alt="cup">
                             <h3 class="wrapper__subtitle">Делимся опытом</h3>
                             <p class="wrapper__descr">Наши сотрудники всегда готовы поделиться своим опытом,
                                 так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                         <div class="wrapper">
-                            <img src="./src/images/svg/heart.svg" alt="heartrate" class="wrapper__icon">
+                            <img src="./src/images/svg/heart.svg" alt="heartrate" class="wrapper__icon heartrate">
                             <h3 class="wrapper__subtitle">Заботимся о здоровье</h3>
                             <p class="wrapper__descr">Мы работаем для того,
                                 чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и
@@ -112,14 +112,15 @@
                     и мы перезвоним вам в течении 10 минут</p>
                 <form action="" class="form">
                     <label for="" class="label">
-                        <input class="input" type="text" placeholder="Ваше имя" pattern="[A-Za-zА-Яа-яЁё0-9]{3,}" required>
+                        <input class="input" type="text" placeholder="Ваше имя" pattern="[A-Za-zА-Яа-яЁё0-9]{3,}"
+                            required>
                     </label>
                     <label for="" class="label">
                         <input class="input" type="tel" id="tel" placeholder="Ваш телефон" required>
                     </label>
                     <label for="" class="label">
                         <input class="input" type="email" id="email" placeholder="Ваш E-mail" required>
-                        </label>
+                    </label>
                     <button class="btn">заказать консультацию</button>
                 </form>
             </div>
@@ -148,9 +149,15 @@
                 <h2 class="catalog__title">каталог пульсометров</h2>
                 <div class="catalog__tabs">
                     <ul class="catalog__caption">
-                        <li class="catalog__tab catalog__tab_active"><p class="skew-text">для фитнеса</p></li>
-                        <li class="catalog__tab"><p class="skew-text">для бега</p></li>
-                        <li class="catalog__tab"><p class="skew-text">для триатлона</p></li>
+                        <li class="catalog__tab catalog__tab_active">
+                            <p class="skew-text">для фитнеса</p>
+                        </li>
+                        <li class="catalog__tab">
+                            <p class="skew-text">для бега</p>
+                        </li>
+                        <li class="catalog__tab">
+                            <p class="skew-text">для триатлона</p>
+                        </li>
                     </ul>
                     <div class="catalog__content catalog__content_active">
                         <div class="row">
@@ -708,7 +715,10 @@
         </section>
     </main>
     <footer class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d730.9267235820588!2d74.59549254525575!3d42.879030305243134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb72887744b39%3A0x6dba7b1390a879ff!2sKojomkul%20Apartment!5e0!3m2!1sen!2skg!4v1610451849934!5m2!1sen!2skg" width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d730.9267235820588!2d74.59549254525575!3d42.879030305243134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb72887744b39%3A0x6dba7b1390a879ff!2sKojomkul%20Apartment!5e0!3m2!1sen!2skg!4v1610451849934!5m2!1sen!2skg"
+            width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         <div class="footer__info">
             <address class="footer__addr">Бишкек, ул.Рыскулова 79Б</address>
             <a class="footer__phone" href="tel:84999228974">8 (499) 922-89-74</a>
@@ -717,12 +727,13 @@
                 <a href="#" class="footer__social-item"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="footer__social-item"><i class="fab fa-pinterest-p"></i></a>
             </div>
-            
+
         </div>
     </footer>
 
 
     <script src="./src/libs/jquery/js/jquery.min.js"></script>
+    <script src="./src/libs/mdb-ui-kit/js/mdb.min.js"></script>
     <script src="./src/libs/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
     <script src="./src/js/main.js"></script>
 </body>
